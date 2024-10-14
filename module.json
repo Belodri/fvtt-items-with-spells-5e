@@ -34,7 +34,7 @@
   "compatibility": {
     "minimum": 11,
     "maximum": 12,
-    "verified": "12.330"
+    "verified": "12.331"
   },
   "languages": [
     {
@@ -46,6 +46,11 @@
       "lang": "de",
       "name": "Deutsch",
       "path": "lang/de.json"
+    },
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json"
     }
   ],
   "relationships": {

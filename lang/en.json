@@ -1,10 +1,27 @@
 {
   "IWS": {
-    "ATTACK_HINT": "If this spell has a flat attack bonus, write it here.",
+    "MODULE_NAME": "Items with Spells",
     "BUTTONS": {
       "DeleteSpell": "Delete spell from item and prompt to delete from actor",
       "EditSpell": "Edit spell",
       "RemoveLink": "Remove spell from item"
+    },
+    "DIALOG": {
+      "AlsoDeleteSpell": "Would you also like to delete the spells from that item?",
+      "DeleteOrphanedSpells": "The spell is no longer linked to the item, but is still present on the actor. Do you also want to delete the spell from the actor?"
+    },
+    "FORM": {
+      "AttackHint": "If this spell has a flat attack bonus, write it here.",
+      "ChargesHint": "If this spell will be cast using charges from the parent item, configure the number of charges above.",
+      "NoOverride": "Don't override",
+      "ConfigureOverrides": "Configure Overrides",
+      "NoUsesHint": "The parent item has no limited uses that can be consumed, hence this field is disabled.",
+      "LimitedHint": "If this spell has a number of uses per rest or similar innate limitations, configure the number of charges above.",
+      "SaveHint": "If this spell has a flat DC or other specialized saving throw logic."
+    },
+    "MISSING_ITEM": {
+      "Description": "This spell's original item could not be found. Maybe it was deleted?",
+      "Name": "Missing Item"
     },
     "TAB": {
       "AbilityBased": "{ability} based",
@@ -14,15 +31,6 @@
       "FillerHint": "Drag and drop a spell here to link it to this item.",
       "PreviewSpell": "Preview spell with overrides"
     },
-    "CHARGES_HINT": "If this spell will be cast using charges from the parent item, configure the number of charges above.",
-    "ConfigureOverrides": "Configure overrides",
-    "LIMITED_HINT": "If this spell has a number of uses per rest or similar innate limitations, configure the number of charges above.",
-    "MISSING_ITEM_DESCRIPTION": "This spell's original item could not be found. Maybe it was deleted?",
-    "MISSING_ITEM": "Missing Item",
-    "MODULE_NAME": "Items with Spells",
-    "QUERY_ALSO_DELETE": "Would you also like to delete the spells from that item?",
-    "PreviewSpell": "Preview spell with overrides",
-    "SAVE_HINT": "If this spell has a flat DC or other specialized saving throw logic.",
     "SETTINGS" : {
       "ITEM_EXCLUSION": {
         "HINT": "Select which item types can have spells attached.",
@@ -38,8 +46,6 @@
         "NAME": "Hide spells from unequipped items"
       }
     },
-    "WARN_ALSO_DELETE": "The spell is not longer linked to the item, but is still present on the actor. Do you also want to delete the spell from the actor?",
-    "WARN_OWNED_SPELL": "Item owned by actor. Spells added below are immediately added to the actor. You can't set overrides on already owned spells, but you can configure a spell directly. Overrides can be set on items in the sidebar (i.e. not on a character sheet).",
     "SUBTITLE": {
       "linked_item": "Click to preview spell with overrides",
       "owned_item": "Click to cast spell"

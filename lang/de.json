@@ -1,11 +1,27 @@
 {
   "IWS": {
-    "ATTACK_HINT": "Wenn dieser Zauber einen flachen Angriffsbonus hat, schreibe ihn hier hin.",
-    "CHARGES_HINT": "Wird der Zauber mit Ladungen des Gegenstands an dem er hängt gewirkt, muss oben die Zahl der verbrauchten Ladungen konfiguriert werden.",
+    "MODULE_NAME": "Items with Spells",
     "BUTTONS": {
       "DeleteSpell": "Zauber aus Item löschen und Aufforderung zum Löschen aus Akteur",
       "EditSpell": "Zauber bearbeiten",
       "RemoveLink": "Verbindung löschen"
+    },
+    "DIALOG": {
+      "AlsoDeleteSpell": "Auch die Zauber von dem Item löschen?",
+      "DeleteOrphanedSpells": "Der Zauber ist nicht mehr mit dem Item verknüpft, aber befindet sich noch auf dem Akteur. Möchten Sie auch den Zauberspruch vom Akteur löschen?"
+    },
+    "FORM": {
+      "AttackHint": "Wenn dieser Zauber einen flachen Angriffsbonus hat, schreibe ihn hier hin.",
+      "ChargesHint": "Wird der Zauber mit Ladungen des Gegenstands an dem er hängt gewirkt, muss oben die Zahl der verbrauchten Ladungen konfiguriert werden.",
+      "NoOverride": "Nicht übersteuerungen",
+      "ConfigureOverrides": "Übersteuerungen konfigurieren",
+      "NoUsesHint": "Der übergeordnete Artikel hat keine begrenzten Verwendungen, die verbraucht werden können, daher ist dieses Feld deaktiviert.",
+      "LimitedHint": "Wenn dieser Zauber seine eigene Zahl Nutzungen pro Rast oder ähnliche Beschränkungen hat, muss das oben festgelegt werden.",
+      "SaveHint": "Falls dieser Zauber einen festen SG oder andere spezielle Rettungswurflogik hat."
+    },
+    "MISSING_ITEM": {
+      "Description": "Ursprungsitem dieses Zaubers konnte nicht gefunden worden. Wurde eventuell gelöscht?",
+      "Name": "Fehlendes Item"
     },
     "TAB": {
       "AbilityBased": "{ability} basiert",
@@ -15,14 +31,6 @@
       "FillerHint": "Ziehen Sie einen Zauber hierher, um ihn mit diesem Item zu verknüpfen.",
       "PreviewSpell": "Vorschau des Zaubers mit Überschreibungen"
     },
-    "ConfigureOverrides": "Übersteuerungen konfigurieren",
-    "LIMITED_HINT": "Wenn dieser Zauber seine eigene Zahl Nutzungen pro Rast oder ähnliche Beschränkungen hat, muss das oben festgelegt werden.",
-    "MISSING_ITEM_DESCRIPTION": "Ursprungsitem dieses Zaubers konnte nicht gefunden worden. Wurde eventuell gelöscht?",
-    "MISSING_ITEM": "Fehlendes Item",
-    "MODULE_NAME": "Items with Spells",
-    "QUERY_ALSO_DELETE": "Auch die Zauber von dem Item löschen?",
-    "PreviewSpell": "Vorschau des Zaubers mit Überschreibungen",
-    "SAVE_HINT": "Falls dieser Zauber einen festen SG oder andere spezielle Rettungswurflogik hat.",
     "SETTINGS" : {
       "ITEM_EXCLUSION": {
         "HINT": "Wählen, welche Itemtypen über Zauber verfügen können.",
@@ -38,9 +46,6 @@
         "NAME": "Zauber aus nicht ausgerüsteten Items ausblenden"
       }
     },
-    "SPELL_LEVEL_HINT": "Falls der Zauber auf einem bestimmten Grad gewirkt wird, Grad oben setzen.",
-    "WARN_ALSO_DELETE": "Der Zauber ist nicht mehr mit dem Item verknüpft, aber befindet sich noch auf dem Akteur. Möchten Sie auch den Zauberspruch vom Akteur löschen?",
-    "WARN_OWNED_SPELL": "Item im Besitz des Akteurs. Unten hinzugefügte Zauber werden dem Akteur sofort hinzugefügt. Sie können keine Überschreibungen auf bereits vorhandene Zauber setzen, aber Sie können einen Zauber direkt konfigurieren. Überschreibungen können für Items in der Seitenleiste festgelegt werden.",
     "SUBTITLE": {
       "linked_item": "Klicken für Vorschau Zauber mit Übersteuerungen",
       "owned_item": "Klicken um Zauber zu wirken"

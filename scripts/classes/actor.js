@@ -38,7 +38,7 @@ export class ItemsWithSpells5eActor {
     const autoConfirm = !game.user.isGM && itemDeleted.system?.identified === false;
     const confirm = optionOverride ?? autoConfirm ? true : await Dialog.confirm({
       title: game.i18n.localize("IWS.MODULE_NAME"),
-      content: game.i18n.localize("IWS.QUERY_ALSO_DELETE")
+      content: game.i18n.localize("IWS.DIALOG.AlsoDeleteSpell")
     });
     if (confirm) return itemDeleted.actor.deleteEmbeddedDocuments("Item", spellIds);
   }
