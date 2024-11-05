@@ -197,9 +197,9 @@ export class ItemsWithSpells5eItemSheet {
     // Create the tab
     const sheetBody = this.sheetHtml.querySelector(".sheet-body");
     div.innerHTML = `<div class="tab ${IWS.MODULE_ID}" data-group="primary" data-tab="${IWS.MODULE_ID}"></div>`;
-    const c = div.firstElementChild;
-    sheetBody.appendChild(c);
-    this.renderHeavy(c);
+    const spellsTab = div.firstElementChild;
+    sheetBody.appendChild(spellsTab);
+    this.renderHeavy(spellsTab);
   }
 
   /**

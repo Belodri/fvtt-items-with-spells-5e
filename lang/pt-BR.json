@@ -1,0 +1,54 @@
+{
+  "IWS": {
+    "MODULE_NAME": "Itens com Magias",
+    "BUTTONS": {
+      "DeleteSpell": "Excluir magia do item e solicitar exclusão do ator",
+      "EditSpell": "Editar magia",
+      "RemoveLink": "Remover magia do item"
+    },
+    "DIALOG": {
+      "AlsoDeleteSpell": "Você também gostaria de excluir as magias daquele item?",
+      "DeleteOrphanedSpells": "A magia não está mais vinculada ao item, mas ainda está presente no ator. Você também quer apagar a magia do ator?"
+    },
+    "FORM": {
+      "AttackHint": "Se a magia tiver um bônus de ataque fixo ou outra lógica de ataque especializada, escreva-o aqui.",
+      "ChargesHint": "Se esta magia for conjurada usando cargas do item, configure o número de cargas acima.",
+      "NoOverride": "Não substituir",
+      "ConfigureOverrides": "Configurar substituições",
+      "NoUsesHint": "O item pai não tem usos limitados que podem ser consumidos, portanto este campo está desabilitado.",
+      "LimitedHint": "Se esta magia tiver um número de usos por descanso ou limitações inatas semelhantes, configure o número de cargas acima.",
+      "SaveHint": "Se esta magia tiver uma CD fixa ou outra lógica de salvaguarda especializada."
+    },
+    "MISSING_ITEM": {
+      "Description": "O item original desta magia não pôde ser encontrado. Talvez ele tenha sido deletado?",
+      "Name": "Item Não Encontrado"
+    },
+    "TAB": {
+      "AbilityBased": "Baseado em {ability}",
+      "Consumes": "Consome",
+      "EmbeddedHint": "Item de propriedade do ator. Magias adicionadas abaixo são imediatamente adicionadas ao ator. Você não pode definir substituições em magias já possuídas, mas pode configurar uma magia diretamente.",
+      "Hint": "As magias abaixo estão vinculadas a este item e serão adicionadas a um ator, com quaisquer substituições, quando você arrastar este item para a ficha de um ator.",
+      "FillerHint": "Arraste e solte uma magia aqui para vinculá-lo a este item.",
+      "PreviewSpell": "Pré-visualizar magia com substituições"
+    },
+    "SETTINGS" : {
+      "ITEM_EXCLUSION": {
+        "HINT": "Selecione quais tipos de itens podem ter magias anexadas.",
+        "NAME": "Selecione tipos de itens",
+        "TITLE": "Menu de Exclusão de Tipo de Item"
+      },
+      "SORT_ORDER": {
+        "HINT": "Se marcado, as seções do grimório adicionadas por este módulo serão colocadas na parte inferior da aba do grimório, em vez de na parte superior. Se você estiver usando o Tidy 5e Sheets, você pode alterar a ordem com a engrenagem de edição na ficha, independentemente de estar marcado. (padrão: desmarcado)",
+        "NAME": "Mostrar magias no final do grimório"
+      },
+      "EXCLUDE_UNEQUIPPED": {
+        "HINT": "Se marcado, as magias não serão mostradas para itens que não estejam equipados. Se desmarcado, as magias serão mostradas independentemente do status equipado. Alterar isso não terá efeito em fichas abertas no momento. Feche e reabra uma ficha para funcionar. (padrão: marcado)",
+        "NAME": "Ocultar magias de itens não equipados"
+      }
+    },
+    "SUBTITLE" : {
+      "linked_item": "Clique para visualizar",
+      "owned_item": "Clique para conjurar"
+    }
+  }
+}
