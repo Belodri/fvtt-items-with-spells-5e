@@ -46,8 +46,8 @@
         "NAME": "Hide spells from unequipped items"
       }
     },
-    "SUBTITLE" : {
-      "linked_item": "Click to preview",
+    "SUBTITLE": {
+      "linked_item": "Click to preview spell with overrides",
       "owned_item": "Click to cast"
     }
   }

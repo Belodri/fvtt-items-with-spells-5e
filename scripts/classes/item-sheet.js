@@ -232,10 +232,10 @@ export class ItemsWithSpells5eItemSheet {
     const activeClass = this.app._tabs?.[0]?.active === IWS.MODULE_ID ? 'active' : '';
     const sheetBody = this.sheetHtml.querySelector(".sheet-body");
     div.innerHTML = `<div class="tab ${IWS.MODULE_ID} ${activeClass}" data-group="primary" data-tab="${IWS.MODULE_ID}"></div>`;
-    const c = div.firstElementChild;
-    sheetBody.appendChild(c);
+    const spellsTab = div.firstElementChild;
+    sheetBody.appendChild(spellsTab);
     const bNewTemplate = IWS.VERSIONS.DnD5e_v4;
-    this.renderHeavy(c, bNewTemplate);
+    this.renderHeavy(spellsTab, bNewTemplate);
   }
 
   /**
