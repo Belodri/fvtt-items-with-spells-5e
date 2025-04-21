@@ -1,4 +1,4 @@
-This module has been created by [Calego](https://github.com/ElfFriend-DnD/foundryvtt-items-with-spells-5e) and previously been maintained by [Zhell](https://github.com/krbz999/foundryvtt-items-with-spells-5e). I (MPMB) will try to fill their big shoes and keep this module working for my games and yours.
+This module has been created by [Calego](https://github.com/ElfFriend-DnD/foundryvtt-items-with-spells-5e) and previously been maintained by [Zhell](https://github.com/krbz999/foundryvtt-items-with-spells-5e) and [MPMB](https://github.com/morepurplemorebetter). This is a fork for use in my personal games only.
 
 # Items with Spells D&D 5e
 This module aims to allow users to attach spells to items in such a way that when the parent item is added to an actor, the spells attached come with, pre-configured with consumption overrides and other small QOL changes.
